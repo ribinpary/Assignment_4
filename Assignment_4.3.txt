@@ -1,0 +1,15 @@
+#Write a Python program to square the elements of a list using map() function?
+#CODE:
+
+num_list = list(map(int,input("Enter the list: ").split()))
+def square(num):
+    return num**2
+squared_numbers = list(map(square,num_list))
+print("Square the elements of the list:",squared_numbers)
+
+
+#OUTPUT:
+
+
+Enter the list: 4 5 2 9
+Square the elements of the list: [16, 25, 4, 81]

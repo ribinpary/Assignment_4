@@ -1,0 +1,13 @@
+#Write a Python program to create a lambda function that adds 25 to a given number passed in as an argument?
+#CODE:
+
+adds_25 = lambda num:num+25
+input_number = int(input("Enter the number: "))
+output = adds_25(input_number)
+print("Sample Output:",output)
+
+
+#OUTPUT:
+
+Enter the number: 10
+Sample Output: 35
